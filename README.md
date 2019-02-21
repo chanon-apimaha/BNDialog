@@ -1,6 +1,6 @@
 # BNDialog
 
-[![CI Status](https://img.shields.io/travis/chanon-apimaha/BNDialog.svg?style=flat)](https://travis-ci.org/chanon-apimaha/BNDialog)
+<!--[![CI Status](https://img.shields.io/travis/chanon-apimaha/BNDialog.svg?style=flat)](https://travis-ci.org/chanon-apimaha/BNDialog)-->
 [![Version](https://img.shields.io/cocoapods/v/BNDialog.svg?style=flat)](https://cocoapods.org/pods/BNDialog)
 [![License](https://img.shields.io/cocoapods/l/BNDialog.svg?style=flat)](https://github.com/chanon-apimaha/BNDialog/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BNDialog.svg?style=flat)](https://cocoapods.org/pods/BNDialog)
