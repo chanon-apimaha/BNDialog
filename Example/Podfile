@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BNDialog_Example' do
+  pod 'BNDialog', :path => '../'
+
+  target 'BNDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
