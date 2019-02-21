@@ -21,10 +21,10 @@
 ////
 //
 ////
-//import UIKit
+import UIKit
 ////import PTConfig
 ////import Foundation
-//open class BNDialog: UIAlertController {
+open class BNDialog: UIAlertController {
 //
 //    private  enum iDisplayType: Int {
 //        case title = 0
@@ -427,7 +427,7 @@
 //            self.timer.invalidate()
 //        }
 //    }
-//}
+}
 //
 //extension ShowDialog: UITextViewDelegate {
 //
