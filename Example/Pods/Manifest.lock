@@ -1,5 +1,5 @@
 PODS:
-  - BNDialog (0.1.0)
+  - BNDialog (0.1.1)
 
 DEPENDENCIES:
   - BNDialog (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BNDialog: 2b6d03411b25973d2e0ab5e8db631688e94654b3
+  BNDialog: 3eb315eeaa222c381fd1731c63023098442dc904
 
 PODFILE CHECKSUM: ca3019e669ef0ece07b7580af83a0d16a1a5a89a
 
