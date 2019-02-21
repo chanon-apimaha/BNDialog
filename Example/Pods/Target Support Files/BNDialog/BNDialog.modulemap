@@ -1,0 +1,6 @@
+framework module BNDialog {
+  umbrella header "BNDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

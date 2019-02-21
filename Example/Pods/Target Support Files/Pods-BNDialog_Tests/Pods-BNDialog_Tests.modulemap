@@ -1,0 +1,6 @@
+framework module Pods_BNDialog_Tests {
+  umbrella header "Pods-BNDialog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

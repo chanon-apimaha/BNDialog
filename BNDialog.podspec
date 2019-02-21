@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BNDialog'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BNDialog.'
+  s.summary          = 'The BNDialog use to display Dialog and can change the button color Can display long messages in the text box'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'The BNDialog use to display Dialog and can change the button color Can display long messages in the text box, thank you '
 
-  s.homepage         = 'https://github.com/pong.np1@gmail.com/BNDialog'
+  s.homepage         = 'https://github.com/chanon-apimaha/BNDialog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pong.np1@gmail.com' => 'pong.np1@gmail.com' }
-  s.source           = { :git => 'https://github.com/pong.np1@gmail.com/BNDialog.git', :tag => s.version.to_s }
+  s.author           = { 'Banchai Nangpang' => 'pong.np1@gmail.com' }
+  s.source           = { :git => 'https://github.com/chanon-apimaha/BNDialog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BNDialog/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'BNDialog' => ['BNDialog/Assets/*.png']

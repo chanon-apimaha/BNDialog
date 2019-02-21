@@ -1,0 +1,22 @@
+{
+  "name": "BNDialog",
+  "version": "0.1.0",
+  "summary": "A short description of BNDialog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pong.np1@gmail.com/BNDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pong.np1@gmail.com": "pong.np1@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pong.np1@gmail.com/BNDialog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BNDialog/Classes/**/*"
+}
