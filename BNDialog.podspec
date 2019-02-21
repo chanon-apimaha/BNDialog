@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BNDialog'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The BNDialog use to display Dialog and can change the button color Can display long messages in the text box'
 
 # This description is used to generate tags and improve search results.

@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		85083B5D0B87A625C038FB4E /* Pods_BNDialog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9872836FEBC1DDEB1CFCDE /* Pods_BNDialog_Tests.framework */; };
+		8B78848F221EAE3E00FB049B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B78848E221EAE3E00FB049B /* Util.swift */; };
 		F86BD8D2D802E6601904F497 /* Pods_BNDialog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE7365F96D7061AA847F53F /* Pods_BNDialog_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D9872836FEBC1DDEB1CFCDE /* Pods_BNDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B78848E221EAE3E00FB049B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		CBE7365F96D7061AA847F53F /* Pods_BNDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED12876AAFBEDBD9302C7C6 /* Pods-BNDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNDialog_Example.debug.xcconfig"; path = "Target Support Files/Pods-BNDialog_Example/Pods-BNDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EBBF9D675E3E951995374E6F /* Pods-BNDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNDialog_Example.release.xcconfig"; path = "Target Support Files/Pods-BNDialog_Example/Pods-BNDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,10 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				8B78848E221EAE3E00FB049B /* Util.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for BNDialog";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8B78848F221EAE3E00FB049B /* Util.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
