@@ -10,5 +10,5 @@ import Foundation
 import BNDialog
 
 class Util {
-//     static let dialog: BNDialog! = BNDialog()
+     static let dialog: BNDialog! = BNDialog()
 }
