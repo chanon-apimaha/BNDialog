@@ -13,6 +13,7 @@
 		6C30986B1B84BBAAF0A65C25D2C201CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6D4D2D1B4781BAE2284C84EA6E929145 /* Pods-BNDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462318E86EC4058226A34DA1A28D0818 /* Pods-BNDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759DFE1C3C4B2FD4F6983C6F0CA1B392 /* Pods-BNDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC241384414AAA24CEE3BDB376304CE /* Pods-BNDialog_Tests-dummy.m */; };
+		8BD30D5322269F8100CF14A8 /* customUicolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD30D5222269F8100CF14A8 /* customUicolor.swift */; };
 		A98CC38A9DE210B192E4BA3DF44D3CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B0AD05D2DEC1187648B2DABD0F1434FB /* BNDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD93681CE25809CEA81AA952A63A6386 /* BNDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBCA3C80DD9A4A8F5C657AC85C748264 /* Pods-BNDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 965884F89361C964C3634E929F4BFA44 /* Pods-BNDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,33 +38,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014C8E13829A0CEEA9D67B47A2CDCD21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		07AFE5E25DD6C4F7FF77B190E4E18543 /* BNDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BNDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		014C8E13829A0CEEA9D67B47A2CDCD21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07AFE5E25DD6C4F7FF77B190E4E18543 /* BNDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BNDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BC241384414AAA24CEE3BDB376304CE /* Pods-BNDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNDialog_Tests-dummy.m"; sourceTree = "<group>"; };
 		217A9CF408B000C8C0859CEB2274634B /* BNDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNDialog.xcconfig; sourceTree = "<group>"; };
 		2523FF28B494E8C4525603670AF366C8 /* Pods-BNDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		32AE3FCDBB7C0CD1E3E6592BF7D74DA1 /* BNDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BNDialog.framework; path = BNDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AE3FCDBB7C0CD1E3E6592BF7D74DA1 /* BNDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BNDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338D66E02C0934443D56712548EA4545 /* Pods-BNDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		462318E86EC4058226A34DA1A28D0818 /* Pods-BNDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A26C8EC5AC4006BFD6FCD3EE68D7C19 /* BNDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BNDialog-dummy.m"; sourceTree = "<group>"; };
 		4DEDE6CF0E74E0F1ADE4B1A88E82365E /* BNDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNDialog-prefix.pch"; sourceTree = "<group>"; };
 		560751151A92A13A4E90C5919E589D46 /* BNDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BNDialog.modulemap; sourceTree = "<group>"; };
 		60C28CC667148692E518C2857F8F08CF /* Pods-BNDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNDialog_Example-dummy.m"; sourceTree = "<group>"; };
-		7E48C7C3BB8DD0E448D357DFBD3CFC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E48C7C3BB8DD0E448D357DFBD3CFC70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		82435B8A78DAD7F461781BD9495AD206 /* Pods-BNDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		84C0316C66B91FEEEF3D1D626AC80984 /* Pods-BNDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A02D2B0B4A580BF3AC612B37E8A98AC /* Pods-BNDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNDialog_Tests.modulemap"; sourceTree = "<group>"; };
+		8BD30D5222269F8100CF14A8 /* customUicolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customUicolor.swift; path = Example/BNDialog/customUicolor.swift; sourceTree = "<group>"; };
 		94FFD81857D87296AFB55624D263265B /* Pods-BNDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		965884F89361C964C3634E929F4BFA44 /* Pods-BNDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNDialog_Example-umbrella.h"; sourceTree = "<group>"; };
 		9BA5873CBD4BD0DDB631D600A20679ED /* Pods-BNDialog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNDialog_Tests-Info.plist"; sourceTree = "<group>"; };
 		9C9F5538176881E1D386C70ECB52AE02 /* BNDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BNDialog-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBE3148654B704C1558FFDE98ECD2623 /* Pods-BNDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD93681CE25809CEA81AA952A63A6386 /* BNDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNDialog-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE1805C357AA1E5CD144B817BCD5FB67 /* Pods_BNDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BNDialog_Example.framework; path = "Pods-BNDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1805C357AA1E5CD144B817BCD5FB67 /* Pods_BNDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A202231694AE2FAFB29EE0EC62A9FE /* Pods-BNDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNDialog_Example.modulemap"; sourceTree = "<group>"; };
-		DF23C427CF2652DBBAC26AD16259068B /* Pods_BNDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BNDialog_Tests.framework; path = "Pods-BNDialog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF23C427CF2652DBBAC26AD16259068B /* Pods_BNDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A3FFD1B0BB8A33F3BB746413E5F4E5 /* Pods-BNDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BNDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA82AFC65461E51CF298D0342FF76151 /* Pods-BNDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE3F85B75E1CEE97E6C51F1D3BBF9127 /* BNDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNDialog.swift; path = BNDialog/Classes/BNDialog.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				EE3F85B75E1CEE97E6C51F1D3BBF9127 /* BNDialog.swift */,
+				8BD30D5222269F8100CF14A8 /* customUicolor.swift */,
 				2D8D40156F1D7266B5D2A7F6B88034F2 /* Pod */,
 				14D0D5D8E90356A8BC7F99EB6E4FF077 /* Support Files */,
 			);
@@ -374,6 +377,7 @@
 			files = (
 				4CAD61621DB4E5CC19C5ECE1EC588F61 /* BNDialog-dummy.m in Sources */,
 				3DE8577C83E7F9233358E09CD5419CAA /* BNDialog.swift in Sources */,
+				8BD30D5322269F8100CF14A8 /* customUicolor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,8 +721,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
