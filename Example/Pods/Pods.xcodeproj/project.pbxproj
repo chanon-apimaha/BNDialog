@@ -13,7 +13,7 @@
 		6C30986B1B84BBAAF0A65C25D2C201CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6D4D2D1B4781BAE2284C84EA6E929145 /* Pods-BNDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 462318E86EC4058226A34DA1A28D0818 /* Pods-BNDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759DFE1C3C4B2FD4F6983C6F0CA1B392 /* Pods-BNDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC241384414AAA24CEE3BDB376304CE /* Pods-BNDialog_Tests-dummy.m */; };
-		8BD30D5322269F8100CF14A8 /* customUicolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD30D5222269F8100CF14A8 /* customUicolor.swift */; };
+		8BD30D5522278F3400CF14A8 /* customUicolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD30D5422278F3400CF14A8 /* customUicolor.swift */; };
 		A98CC38A9DE210B192E4BA3DF44D3CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B0AD05D2DEC1187648B2DABD0F1434FB /* BNDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD93681CE25809CEA81AA952A63A6386 /* BNDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBCA3C80DD9A4A8F5C657AC85C748264 /* Pods-BNDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 965884F89361C964C3634E929F4BFA44 /* Pods-BNDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,7 +54,7 @@
 		82435B8A78DAD7F461781BD9495AD206 /* Pods-BNDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		84C0316C66B91FEEEF3D1D626AC80984 /* Pods-BNDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A02D2B0B4A580BF3AC612B37E8A98AC /* Pods-BNDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNDialog_Tests.modulemap"; sourceTree = "<group>"; };
-		8BD30D5222269F8100CF14A8 /* customUicolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customUicolor.swift; path = Example/BNDialog/customUicolor.swift; sourceTree = "<group>"; };
+		8BD30D5422278F3400CF14A8 /* customUicolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customUicolor.swift; path = BNDialog/Classes/customUicolor.swift; sourceTree = "<group>"; };
 		94FFD81857D87296AFB55624D263265B /* Pods-BNDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		965884F89361C964C3634E929F4BFA44 /* Pods-BNDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNDialog_Example-umbrella.h"; sourceTree = "<group>"; };
 		9BA5873CBD4BD0DDB631D600A20679ED /* Pods-BNDialog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNDialog_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -177,8 +177,8 @@
 		9C29EEF1B1D6295BFA458C7865C455B6 /* BNDialog */ = {
 			isa = PBXGroup;
 			children = (
+				8BD30D5422278F3400CF14A8 /* customUicolor.swift */,
 				EE3F85B75E1CEE97E6C51F1D3BBF9127 /* BNDialog.swift */,
-				8BD30D5222269F8100CF14A8 /* customUicolor.swift */,
 				2D8D40156F1D7266B5D2A7F6B88034F2 /* Pod */,
 				14D0D5D8E90356A8BC7F99EB6E4FF077 /* Support Files */,
 			);
@@ -377,7 +377,7 @@
 			files = (
 				4CAD61621DB4E5CC19C5ECE1EC588F61 /* BNDialog-dummy.m in Sources */,
 				3DE8577C83E7F9233358E09CD5419CAA /* BNDialog.swift in Sources */,
-				8BD30D5322269F8100CF14A8 /* customUicolor.swift in Sources */,
+				8BD30D5522278F3400CF14A8 /* customUicolor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
